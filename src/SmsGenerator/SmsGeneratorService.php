@@ -6,6 +6,6 @@ class SmsGeneratorService
 {
     public function generate(string $text): string
     {
-        return strtoupper($text);
+        return strtouppe($text);
     }
 }
